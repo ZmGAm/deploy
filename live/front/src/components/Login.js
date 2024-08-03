@@ -28,7 +28,8 @@ const Login = () => {
 
     
     // const posts_data="https://localhost:27017/car_pooling/user";
-    const posts_data=`${window.location.origin}/user/login`;
+    // const posts_data=`${window.location.origin}/user/login`;
+   const posts_data="http://localhost:5000/user/login";
     const posts_pic="https://api.cloudinary.com/v1_1//dogabixdo/image/upload";
     
     // const [records,setRecords] =useState ([]); 
