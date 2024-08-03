@@ -1,0 +1,68 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+.pool-data{
+    
+border: 5px cornflowerblue ridge;
+background-color: white;
+}
+
+h30{
+    color: black;
+    font-size: 20px;
+    border-bottom:5px double black;
+}
+.profile{
+   
+    box-shadow: 0 8px 25px 0 black;
+    display: flex;  
+    flex-direction: column;
+    margin: 10%;
+    justify-self: center;
+    width: 20%;
+
+}
+.profile:hover{
+
+    transform:scale(1.1);
+    box-shadow: 0 16px 45px seagreen;
+}
+.Edit {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .topcontain{
+
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    /* background: #ff7777; */
+    color: black;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    /* padding: 25px 160px; */
+    /* position: absolute; */
+    display: flex;
+    margin: 3%;
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-self: center; */
+}
+.text:hover{
+
+    transform:scale(1.1);
+    text-shadow: 0 16px 45px gray;
+}

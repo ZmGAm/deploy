@@ -1,0 +1,362 @@
+
+
+/* header {
+
+    background-image: url(images/gmain.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+} */
+/* .newmap{
+    
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+} */
+.div-for-cars{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /* height: 540px; */
+    /* width: 700px; */
+    overflow: scroll;
+    /* position: absolute; */
+    /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    /* margin: 20px 40px 20px 10px; */
+}
+.upper{
+    display: flex;
+
+    /* flex-direction: row; */
+    /* row-gap: 100px; */
+    /* height: 590px; */
+
+
+    flex-direction: row;
+    padding: 1%;
+    column-gap: 1%;
+    /* height: 590px; */
+}
+@media (max-width: 800px) {
+    .upper {
+      flex-direction: column;
+      padding: 1%;
+      row-gap: 1%;
+    }
+  }
+  .div-for-cars1{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 40px; */
+
+    height: 570px;
+
+    height: 80vh;
+
+    /* width: 700px; */
+    /* overflow: scroll; */
+    /* position: absolute; */
+    /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+
+    margin: 10px 40px 0px 10px;
+    column-gap: 10px;border: 3px solid blue;
+
+    /* margin: 10px 40px 0px 10px; */
+    column-gap: 1%;
+    border: 3px solid blue;
+
+}
+/*--------------------slider css_____________________>*/
+.main {
+    height: 133vh;
+    width: 70vh;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid transparent;
+    box-shadow: green 0px 5px 15px;
+}
+.slide_car{
+
+    display: flex;
+    column-gap: 10px;
+}
+
+.tasveer {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    inset: 0;
+    animation: show 15s infinite;
+}
+
+.ts1 {
+    animation-delay: 5s;
+}
+
+.ts2 {
+    animation-delay: 10s; /* Adjust the delay for the second image */
+}
+
+.ts3 {
+    animation-delay: 15s; /* Adjust the delay for the third image */
+}
+
+.tasveer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+        transform: scale(1.03); /* Use 'transform' instead of 'scale' */
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+/*________________________________________________________________________*/
+.logo {
+    margin-top: 10px;
+    margin-left: 16px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    box-sizing: 4px;
+    border: 1px solid white;
+    list-style-type: none;
+}
+
+.real {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+    backdrop-filter: blur(10px);
+    border: 3pxt solid black;
+    box-shadow: 0 4px 2px 0 blue;
+}
+
+ul {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 10px;
+
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+ul li a {
+    list-style-type: none;
+}
+
+
+ul li link a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border: 1px solid white;
+    padding: 5% 10px;
+}
+
+.car1 p {
+
+    color: white;
+}
+
+/*<-----------------end---------------->*/
+.pic1 {
+
+    height: 150px;
+}
+
+h1 {
+
+    margin-top: 5px;
+    font-size: medium;
+    color: rgb(157, 36, 36);
+    inline-size: none;
+
+}
+
+h3 {
+
+    margin-top: 5px;
+    font-size: medium;
+    color: rgb(227, 19, 19);
+
+}
+
+p1 {
+    color: black;
+}
+
+
+.content {
+
+    backdrop-filter: blur(10px);
+    border: 3pxt solid rgba(128, 128, 128, 0.633);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    background-color: aquamarine;
+}
+.content:hover{
+    box-shadow: 0 8px 32px 0 seagreen;
+    transition: all 0.6s linear;
+
+}
+.car1 {
+
+    display: inline-flex;
+    flex-direction: column;
+    
+
+}
+
+.nishan {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+
+}
+
+.no {
+    color: rgb(215, 245, 179);
+}
+
+.insid-car1 {
+    background-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+
+.text3 {
+    margin-top: 3px;
+
+    color:black;
+    box-sizing: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.icon {
+
+    display: flex;
+    column-gap: 5px;
+}
+
+.type {
+
+    display: block;
+    height: 22px;
+}
+
+.bottom {
+    display: inline-flex;
+    /* justify-content: space-between; */
+    /* column-gap: 5px; */
+    row-gap: 10px;
+    column-gap: 295px;
+}
+
+.protection {
+
+    display: flex;
+    column-gap: 5px;
+}
+.first-in-botom{
+    border: 5px;
+    border-color:black;
+}
+.rs {
+
+    display: flex;
+    column-gap: 5px;
+
+}
+
+.price{
+
+    color:black;
+    font-size:small;
+    font-style: oblique;
+    font-weight: 700;
+}
+.bn2{
+    background-color: cornflowerblue;
+    border-style: none;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+}
+
+.hidden {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: all 2s;
+  }
+  
+  .shown {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    transition: all 2s;
+  }
+  .logo {
+    margin-top: 10px;
+    margin-left: 16px;
+    background-color: transparent;
+    color: rgb(134, 1, 52);
+    border-color: white;
+    box-sizing: 4px;
+    border: 1px solid rgb(210, 11, 11);
+    list-style-type: none;
+}
+.pool-data{
+    display: flex;
+    flex-direction: column;
+}

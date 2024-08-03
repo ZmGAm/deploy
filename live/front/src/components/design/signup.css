@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.farm{
+    width: 300px;
+}
+form {
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* background-color: blue; */
+    align-items: center;
+    border-radius: 10px;
+  /* padding: 145px; */
+  /* padding-top: 120px; */
+  padding-bottom: 20px;
+  margin: right 20px;;
+  border: 3px solid red;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    /* border-color: black; */
+}
+
+.formerrors {
+    color: red;
+}
+input{
+    border-style: solid;
+}
+input:hover{
+    box-shadow: 0 8px 20px 0 gray;
+}
+input:focus {
+    padding: 5px;
+    /* box-shadow: red; */
+    border-color: gray;
+}
+select{
+    border-style: solid;
+}
+select:hover{
+    box-shadow: 0 8px 20px 0 gray;
+}
+select:focus {
+    padding: 5px;
+    /* box-shadow: red; */
+    border-color: gray;
+}
+.gender:focus{
+    padding: 10px;
+    /* box-shadow: red; */
+    border-color: rgb(8, 48, 252);
+}
+.gender:hover{
+    box-shadow: 0 8px 14px 0 gray;
+
+}
+
+button{
+    border-style: solid;
+}
+button:hover{
+    box-shadow: 0 8px 20px 0 gray;
+}
+button:focus {
+    padding: 5px;
+    /* box-shadow: red; */
+    border-color: gray;
+}
+
+.create{
+    display: flex;
+    flex-direction: row;
+}
+.desti{
+    border-style: solid;
+    width: 190px;
+    height: 45px;
+}
+.desti:hover{   
+    box-shadow: 0 8px 20px 0 gray;
+}
+.desti:focus {
+    padding: 5px;
+    /* box-shadow: red; */
+    border-color: gray;
+}
