@@ -146,7 +146,7 @@ const direct=useNavigate()
         <form className="form"action="" onSubmit={submmit}  > 
         <div className='text' style={{textDecoration:"underline overline"}}>Signup</div>
                 <div className="form-group">
-                        <label htmlFor="username" className="form-label">Fullname</label>
+                        <label htmlFor="username" className="form-label">Full Name</label>
                         <input type="username" value={userRegistration.username}
                         onChange={inputvalid}
                         autoComplete='off' name="username" id="username" placeholder='      enter your name'/>
