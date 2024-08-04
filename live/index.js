@@ -14,11 +14,11 @@ const app = express()
 
 app.use(cors(
 
-  {
-    origin:["*"],
-    methods:["GET","POST","PUT","DELETE","OPTION"],
-    credential:true,
-  }
+  // {
+  //   origin:["*"],
+  //   methods:["GET","POST","PUT","DELETE","OPTION"],
+  //   credential:true,
+  // }
 ))
 
 app.get("/",(req,res)=>{
